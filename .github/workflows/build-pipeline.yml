@@ -35,7 +35,7 @@ jobs:
     - name: Archive code coverage html report
       uses: actions/upload-artifact@v2
       with:
-        name: code-coverage-report
+        name: code-coverage-report1
         path: src/htmlcov
     - name: Run package creation
       run: |
