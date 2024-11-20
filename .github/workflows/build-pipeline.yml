@@ -60,7 +60,7 @@ jobs:
 
       - name: Install Wheel
         run: |
-          pip install /dist/*.whl
+          pip install ./src/*.whl
           
       
         
