@@ -49,6 +49,7 @@ jobs:
         path: src/dist    
 
   Post-Build:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Download Artifact
